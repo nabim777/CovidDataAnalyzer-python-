@@ -1,0 +1,38 @@
+
+
+Data of Kaski district:
+
+----------------------Total Data of covid cases----------------------
+
+Current_State      Total
+       active        329
+        death         12
+    recovered        697
+
+----------------------Total Data by Gender----------------------
+
+----------------------Total Data of Male----------------------
+
+Current_State      Total
+       active        217
+        death          6
+    recovered        474
+
+----------------------Total Data of Female----------------------
+
+Current_State      Total
+       active        112
+        death          6
+    recovered        223
+
+----------------------Total Data by Age Group----------------------
+
+currentState   Under 18      18-30      31-50   Above 50
+      active          0          0          0          0
+       death          0          1          4          6
+   recovered          0          1          1          1
+
+----------------------Total Number of death----------------------
+
+ Total_Death
+          12
