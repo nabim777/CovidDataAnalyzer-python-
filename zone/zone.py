@@ -4,13 +4,13 @@ import pandas as pd
 
 class CovidDataAnalyzer:
    
-    # query = "SELECT * FROM 'zone' where title = 'Kaski' "
-    # df=pd.read_sql_query(query,connection)
-    # print(df.head())
-#         print(df.head())
-#         self.connection.close()
-#         # return self.cursor.execute(query).fetchall()
-#         df=pd.read_sql_query(query,self.connection)
+    query = "SELECT * FROM 'zone' where title = 'Kaski' "
+    df=pd.read_sql_query(query,connection)
+    print(df.head())
+        print(df.head())
+        self.connection.close()
+        # return self.cursor.execute(query).fetchall()
+        df=pd.read_sql_query(query,self.connection)
         print(df.head())
         self.connection.close()
 
@@ -49,7 +49,7 @@ class CovidDataAnalyzer:
 
 
 
-obj1=CovidDataAnalyzer('Pokhara','Kaski',4)
+obj1=CovidDataAnalyzer('Pokhara','Kaski',5)
 obj1.print_data()
 obj1.query_zone()
 obj1.query_municipality()
