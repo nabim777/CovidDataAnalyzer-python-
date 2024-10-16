@@ -11,8 +11,8 @@ class CovidDataAnalyzer:
 #         self.connection.close()
 #         # return self.cursor.execute(query).fetchall()
 #         df=pd.read_sql_query(query,self.connection)
-#         print(df.head())
-#         self.connection.close()
+        print(df.head())
+        self.connection.close()
 
     def __init__(self,municipality,district,province):
         self.municipality=municipality
